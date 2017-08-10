@@ -1,0 +1,114 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\css\bootstrap.min.css" />
+    <Content Include="wwwroot\css\hero-slider-style.css" />
+    <Content Include="wwwroot\css\magnific-popup.css" />
+    <Content Include="wwwroot\css\templatemo-style.css" />
+    <Content Include="wwwroot\fonts\IRANSans4\WebFonts\css\fontiran.css" />
+    <Content Include="wwwroot\fonts\IRANSans4\WebFonts\css\style.css" />
+    <Content Include="wwwroot\fonts\IRANSans4\WebFonts\fonts\eot\IRANSansWeb.eot" />
+    <Content Include="wwwroot\fonts\IRANSans4\WebFonts\fonts\eot\IRANSansWeb_Bold.eot" />
+    <Content Include="wwwroot\fonts\IRANSans4\WebFonts\fonts\eot\IRANSansWeb_Light.eot" />
+    <Content Include="wwwroot\fonts\IRANSans4\WebFonts\fonts\eot\IRANSansWeb_Medium.eot" />
+    <Content Include="wwwroot\fonts\IRANSans4\WebFonts\fonts\eot\IRANSansWeb_UltraLight.eot" />
+    <Content Include="wwwroot\fonts\IRANSans4\WebFonts\fonts\ttf\IRANSansWeb.ttf" />
+    <Content Include="wwwroot\fonts\IRANSans4\WebFonts\fonts\ttf\IRANSansWeb_Bold.ttf" />
+    <Content Include="wwwroot\fonts\IRANSans4\WebFonts\fonts\ttf\IRANSansWeb_Light.ttf" />
+    <Content Include="wwwroot\fonts\IRANSans4\WebFonts\fonts\ttf\IRANSansWeb_Medium.ttf" />
+    <Content Include="wwwroot\fonts\IRANSans4\WebFonts\fonts\ttf\IRANSansWeb_UltraLight.ttf" />
+    <Content Include="wwwroot\fonts\IRANSans4\WebFonts\fonts\woff2\IRANSansWeb.woff2" />
+    <Content Include="wwwroot\fonts\IRANSans4\WebFonts\fonts\woff2\IRANSansWeb_Bold.woff2" />
+    <Content Include="wwwroot\fonts\IRANSans4\WebFonts\fonts\woff2\IRANSansWeb_Light.woff2" />
+    <Content Include="wwwroot\fonts\IRANSans4\WebFonts\fonts\woff2\IRANSansWeb_Medium.woff2" />
+    <Content Include="wwwroot\fonts\IRANSans4\WebFonts\fonts\woff2\IRANSansWeb_UltraLight.woff2" />
+    <Content Include="wwwroot\fonts\IRANSans4\WebFonts\fonts\woff\IRANSansWeb.woff" />
+    <Content Include="wwwroot\fonts\IRANSans4\WebFonts\fonts\woff\IRANSansWeb_Bold.woff" />
+    <Content Include="wwwroot\fonts\IRANSans4\WebFonts\fonts\woff\IRANSansWeb_Light.woff" />
+    <Content Include="wwwroot\fonts\IRANSans4\WebFonts\fonts\woff\IRANSansWeb_Medium.woff" />
+    <Content Include="wwwroot\fonts\IRANSans4\WebFonts\fonts\woff\IRANSansWeb_UltraLight.woff" />
+    <Content Include="wwwroot\fonts\IRANSans4\WebFonts\IRANSans.html" />
+    <Content Include="wwwroot\fonts\IRANSans4\WebFonts\WebFonts.png" />
+    <Content Include="wwwroot\img\tm-img-01-tn.jpg" />
+    <Content Include="wwwroot\img\tm-img-01.jpg" />
+    <Content Include="wwwroot\img\tm-img-02-tn.jpg" />
+    <Content Include="wwwroot\img\tm-img-02.jpg" />
+    <Content Include="wwwroot\img\tm-img-03-tn.jpg" />
+    <Content Include="wwwroot\img\tm-img-03.jpg" />
+    <Content Include="wwwroot\img\tm-img-04-tn.jpg" />
+    <Content Include="wwwroot\img\tm-img-04.jpg" />
+    <Content Include="wwwroot\img\tm-img-05-tn.jpg" />
+    <Content Include="wwwroot\img\tm-img-05.jpg" />
+    <Content Include="wwwroot\img\tm-img-06-tn.jpg" />
+    <Content Include="wwwroot\img\tm-img-06.jpg" />
+    <Content Include="wwwroot\img\tm-img-07-tn.jpg" />
+    <Content Include="wwwroot\img\tm-img-07.jpg" />
+    <Content Include="wwwroot\img\tm-img-08-tn.jpg" />
+    <Content Include="wwwroot\img\tm-img-08.jpg" />
+    <Content Include="wwwroot\img\tm-img-09-tn.jpg" />
+    <Content Include="wwwroot\img\tm-img-09.jpg" />
+    <Content Include="wwwroot\img\tm-img-10-tn.jpg" />
+    <Content Include="wwwroot\img\tm-img-10.jpg" />
+    <Content Include="wwwroot\img\tm-img-11-tn.jpg" />
+    <Content Include="wwwroot\img\tm-img-11.jpg" />
+    <Content Include="wwwroot\img\tm-img-12-tn.jpg" />
+    <Content Include="wwwroot\img\tm-img-12.jpg" />
+    <Content Include="wwwroot\img\tm-img-13-tn.jpg" />
+    <Content Include="wwwroot\img\tm-img-13.jpg" />
+    <Content Include="wwwroot\img\tm-img-14-tn.jpg" />
+    <Content Include="wwwroot\img\tm-img-14.jpg" />
+    <Content Include="wwwroot\img\tm-img-15-tn.jpg" />
+    <Content Include="wwwroot\img\tm-img-15.jpg" />
+    <Content Include="wwwroot\img\tm-img-16-tn.jpg" />
+    <Content Include="wwwroot\img\tm-img-16.jpg" />
+    <Content Include="wwwroot\js\bootstrap.min.js" />
+    <Content Include="wwwroot\js\hero-slider-main.js" />
+    <Content Include="wwwroot\js\jquery-1.11.3.min.js" />
+    <Content Include="wwwroot\js\jquery.magnific-popup.min.js" />
+    <Content Include="wwwroot\video\moving-cloud.mp4" />
+    <Content Include="wwwroot\video\night-light-blur.mp4" />
+    <Content Include="wwwroot\video\padaut-bee.mp4" />
+    <Content Include="wwwroot\video\red-flower.mp4" />
+    <Content Include="wwwroot\video\sunset-cloud.mp4" />
+    <Content Include="wwwroot\video\sunset-loop.mp4" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Alamut.Data" Version="3.0.2" />
+    <PackageReference Include="Alamut.Utilities" Version="3.0.2" />
+    <PackageReference Include="Alamut.Utilities.AspNet" Version="1.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="2.0.1" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="1.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="1.1.2" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="1.4.0" />
+    <PackageReference Include="Serilog.Sinks.Literate" Version="2.1.0" />
+    <PackageReference Include="Serilog.Sinks.RollingFile" Version="3.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="1.0.0-msbuild3-final" />
+  </ItemGroup>
+
+
+</Project>
