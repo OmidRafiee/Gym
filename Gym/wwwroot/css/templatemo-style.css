@@ -583,7 +583,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 
 	.cd-slider-nav a, 
 	.navbar-nav .nav-link {
-		height: 80px;
+		/*height: 80px;*/
 	}
 
 	.tm-social-icons-container { margin-bottom: 20px; }
@@ -625,9 +625,9 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 @media only screen and (min-width: 1333px) {
 	.cd-slider-nav a,
 	.navbar-nav .nav-link {
-		font-size: 1.2em;
+		/*font-size: 1.2em;*/
 		width: 160px;
-		height: 110px;
+		height: 70px;
 	}
 	.cd-slider-nav a.navbar-brand { font-size: 3.5rem; }
 
