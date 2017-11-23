@@ -1,0 +1,41 @@
+CREATE TABLE [dbo].[Article]
+(
+[Id] [int] NOT NULL IDENTITY(1, 1),
+[Abstract] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Authors] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[DOI] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[DocumentType] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[FinancialDate] [datetime2] NULL,
+[FinancialFile] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[FinancialPrice] [decimal] (18, 2) NOT NULL,
+[FinancialTracking] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[GroupId] [int] NULL,
+[ImpactFactor] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Issn] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Issue] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[JournalId] [int] NULL,
+[JournalName] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[JournalUrl] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Keywords] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Language] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Link] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Pages] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Published] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Quarter] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[RoutineFlownDate] [datetime2] NULL,
+[RoutineIsFlown] [bit] NOT NULL,
+[RoutineStep] [int] NOT NULL,
+[RoutineStepChangeDate] [datetime2] NULL,
+[SearchResultArticleIndex] [int] NOT NULL,
+[SearchRoutin] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[SecretariatLetterFile] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[SourceTitle] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Subject] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Title] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Vendor] [int] NOT NULL,
+[Volume] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Year] [int] NOT NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Article] ADD CONSTRAINT [PK_Article] PRIMARY KEY CLUSTERED  ([Id]) ON [PRIMARY]
+GO

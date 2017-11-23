@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[Routine]
+(
+[Id] [int] NOT NULL IDENTITY(1, 1),
+[Title] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Routine] ADD CONSTRAINT [PK_Routine] PRIMARY KEY CLUSTERED  ([Id]) ON [PRIMARY]
+GO
